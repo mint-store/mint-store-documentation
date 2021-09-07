@@ -55,7 +55,7 @@ This endpoint returns the public data associated to a single `minted_nft` item. 
 
 
 
-| Input  | Type | Description |
+| BODY  | Type | Description |
 | ------------- | ------------- | ------------- |
 | nftID  | STRING  | The id of the NFT as recored in the MintStoreItem smart contract.  |
 
