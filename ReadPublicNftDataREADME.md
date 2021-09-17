@@ -51,6 +51,10 @@ For access to the API, contact us at <a href="mailto:support@mint.store">support
 
 `GET https://api-wallet.mint.store/public-nft-data`
 
+Our testnet NFTs can also be accessed at 
+`GET https://staging-api-testnet.mint.store/public-nft-data`
+
+
 This endpoint returns the public data associated to a single `minted_nft` item. Queries can only yield results for a single item.  
 
 
