@@ -7,6 +7,8 @@ A MintStoreItem is a non-fungible token with specific properties. As a rule, eac
 
 A flow account must be initialized with a `MintStoreItemCollection` that can hold `MintStoreItems`. To read the tokenIDs in their collection, the <a href="./cadence/scripts/MintStoreItem/get_accountTokens.cdc" target="_blank">get_accountTokens.cdc</a> script can be executed.
 
+  Testnet address: `0x985d410b577fd4a1`
+  Mainnet address `0x20187093790b9aef`
 
 With the list of tokenIDs, there are two options to retrieve the NFT metadata. Option A) directly through the blockchain, and Option B) through our API.
 
