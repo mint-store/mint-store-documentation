@@ -9,7 +9,11 @@ Mainnet address `0x20187093790b9aef`
 
 With the list of tokenIDs, there are two options to retrieve the NFT metadata. Option A) directly through the blockchain, and Option B) through our API.
 
-<h2>Option A) Retrieving NFT Data from the blockchain</h2>
+<h2>Option A) Alchemy API</h2>
+
+Our smart contract is integrated into the <a href="https://www.alchemy.com/flow" target="_blank">Alchemy API</a>, which is an industry standard approach to reading NFT metadata on Flow.
+
+<h2>Option B) Retrieving NFT Data from the blockchain</h2>
 
 With the list of tokenIDs, we can read the NFT specific data with the <a href="./cadence/scripts/MintStoreItem/get_itemData.cdc" target="_blank">get_itemData.cdc</a> script.
 
@@ -40,7 +44,7 @@ Using the editionID, the associated data can be retrieved by executing the <a hr
 | numberOfItemsMinted | UInt32           | The number of items currently minted for the edition.                                              |
 | printingLimit       | UInt32?          | The maximum number of items that can be minted for the edition. If undefined, the edition is open. |
 
-<h2>Option B) Retrieving NFT Data from our API</h2>
+<h2>Option C) Retrieving NFT Data from our API</h2>
 
 For access to the API, contact us at <a href="mailto:support@mint.store">support@mint.store</a>.
 
